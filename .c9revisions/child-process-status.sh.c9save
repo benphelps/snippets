@@ -1,0 +1,2 @@
+{"ts":1354499373918,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1354499453957,"patch":[[{"diffs":[[1,"# send a process to the background\nsleep 4 &\n# use this to output .'s until its done\nwhile kill -0 $! > /dev/null 2>&1; do printf '.'; sleep 1; done; wait"]],"start1":0,"start2":0,"length1":0,"length2":154}]],"length":154,"saved":false}
